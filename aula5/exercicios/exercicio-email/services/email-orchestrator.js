@@ -4,7 +4,7 @@ const vehicles = require("../data/vehicles");
 const formattedKeys = require("../data/utils/formattedKeyTranslator")
 const WEEKDAYS = require("../weekdays");
 
-const SEND_DAY = WEEKDAYS.FRIDAY;
+const SEND_DAY = WEEKDAYS.MONDAY;
 
 const emailSubject = "Special Offers Await: Dive into This Week's CarStore Deals!";
 let emailContent;
